@@ -1,0 +1,828 @@
+body {
+    width: 100%;
+}
+
+body p {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 12pt;
+    font-weight: 300;
+}
+
+body h4 {
+    font-size: 14pt;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+}
+
+body h3 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+body h2 {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+/* Slide Banner */
+.carousel-inner {
+    /* display: inline-block; */
+    position: relative;   
+}
+
+.bd-greetings {
+    margin-top: 50px;
+}
+
+.bd-greetings h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#about {
+    position: relative;
+    background-color: #FFC107;
+    height: 250px;
+    margin-top: 80px;
+}
+
+#about h2 {
+    /* width: 250px; */
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+#about h4 {
+    font-size: 2.0rem;
+    color: #fff;
+}
+
+#about p {
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #fff;
+}
+
+#about .col-sm-5 {
+    margin: 50px 0px;
+}
+
+#about .col-sm-7 {
+    margin: 50px 0px;
+}
+
+#about .whatsapp {
+    position: fixed;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    /* transform: translateY(-50%); */
+    transform: translateY(200%);
+}
+
+/* Service Top */
+.service-top-block {
+    margin-top: 100px;
+}
+
+.service-top-block h2 {
+    font-size: 2.0rem;
+}
+
+.service-top-block hr {
+    background-color: #FEC606;
+}
+
+.service-top-block .service-short-desc .thumbnail {
+    border-style: ridge;
+    border-width: 1px;
+    border-color: #FEC606;
+}
+
+.service-top-block .service-short-desc .thumbnail img {
+    padding: 5px;
+}
+
+.service-top-block h4 {
+    color: #FEC606;
+    margin: 20px 0px;
+}
+.service-top-block p {
+    text-align: justify;
+}
+
+.service-short-desc {
+    margin-top: 50px;
+}
+
+.caption h4 {
+    text-align: center;
+}
+
+/* Portofolio */
+.portofolio {
+    margin-top: 100px;
+}
+
+.portofolio h2 {
+    font-size: 2.0rem;
+}
+
+.portofolio p {
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.portofolio hr {
+    background-color: #FEC606;
+}
+
+.portofolio .portofolio-short-desc{
+    margin-top: 50px;
+}
+
+.portofolio .portofolio-short-desc .thumbnail img {
+    width: 200px;
+    height: 274px;
+}
+
+/* Contact us */
+.contact-us {
+    background-color: #ced6e0; 
+    margin-top: 50px;
+    padding: 60px 0px;
+}
+
+.contact-us .maps {
+    margin-top: 50px;
+}
+
+.contact-us .phone-number {
+    margin-top: 50px;
+}
+
+.contact-us .phone-number ul li {
+    list-style: none;
+}
+
+.contact-us .phone-number ul li img {
+    width: 30px;
+    height: 30px;
+    margin-left: -40px;
+}
+
+/* Footer */
+.footer {
+    background-color: #2f3542;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;;
+    margin: auto;
+}
+
+/* Media Screen Queries */
+@media (max-width: 320px) {
+    .bd-greetings h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #about {
+        position: relative;
+        background-color: #FFC107;
+        height: 250px;
+        margin-top: 50px;
+    }
+    
+    #about .col-sm-5 {
+        position: absolute;
+        margin-top: 30px;
+        left: 0;
+    }
+    
+    #about .col-sm-7 {
+        position: absolute;
+        margin-top: 100px;
+        left: 0;    
+    }
+    
+    #about .whatsapp {
+        margin: -30px -80px;
+        z-index: 1000;
+    }
+    
+    #about .whatsapp img {
+        width: 50px;
+        height: 50px;
+        /* margin: 15px 0px; */
+        /* top: 100%; */
+    }
+    
+    #about h2 {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    #about h4 {
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    #about p {
+        font-size: 0.9rem;
+    }
+    
+    /* Service top */
+    .service-top-block {
+        margin: 50px 0px;
+    }
+
+    .service-top-block h2 {
+        font-size: 1.6rem;
+    }
+       
+    .service-top-block .service-short-desc {
+        margin-top: 30px;
+    }
+    
+    .service-top-block .service-short-desc .btn-warning {
+        font-size: 10pt;
+    }
+    
+    .service-top-block .service-short-desc div.center {
+        margin-top: 30px;
+    }
+    
+    .service-top-block .service-short-desc p {
+        text-align: justify;
+    }
+
+    .service-top-block .service-short-desc .thumbnail {
+        border-style: none;
+    }
+    
+    .service-top-block .service-short-desc .thumbnail img {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    div.service-top-block div.service-short-desc div.center button.btn-warning {
+        /* width: 200px; */
+        font-size: 10pt;
+    }
+    
+    .portofolio {
+        margin-top: 50px;
+    }
+
+    .portofolio h2 {
+        font-size: 1.6rem;
+    }
+    
+    .portofolio .portofolio-short-desc {
+        margin-top: 30px;
+    }
+    
+    .portofolio .portofolio-short-desc .thumbnail img {
+        width: 250px;
+        height: 200px;    
+    }
+    
+    .contact-us .phone-number {
+        margin-top: 0px;
+    }
+
+    .contact-us iframe{
+        margin: -40px 20px;
+        width: 250px;
+        height: 300px;
+    }
+
+}
+
+@media (min-width: 321px ) and (max-width: 375px) {
+
+    .bd-greetings h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #about {
+        position: relative;
+        background-color: #FFC107;
+        height: 250px;
+        margin-top: 50px;
+    }
+    
+    #about .col-sm-5 {
+        position: absolute;
+        margin-top: 20px;
+        left: 0;
+    }
+    
+    #about .col-sm-7 {
+        position: absolute;
+        margin-top: 90px;
+        left: 0;    
+    }
+    
+    #about .whatsapp {
+        margin: -30px -80px;
+        z-index: 1000;
+    }
+    
+    #about .whatsapp img {
+        width: 50px;
+        height: 50px;
+        /* margin: 15px 0px; */
+        /* top: 100%; */
+    }
+    
+    #about h2 {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    #about h4 {
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    #about p {
+        font-size: 1.0rem;
+    }
+    
+    /* Service top */
+    .service-top-block {
+        margin: 50px 0px;
+    }
+
+    .service-top-block h2 {
+        font-size: 1.6rem;
+    }
+       
+    .service-top-block .service-short-desc {
+        margin-top: 30px;
+    }
+    
+    .service-top-block .service-short-desc .btn-warning {
+        font-size: 10pt;
+    }
+    
+    .service-top-block .service-short-desc div.center {
+        margin-top: 30px;
+    }
+    
+    .service-top-block .service-short-desc p {
+        text-align: justify;
+    }
+
+    .service-top-block .service-short-desc .thumbnail {
+        border-style: none;
+    }
+    
+    .service-top-block .service-short-desc .thumbnail img {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    div.service-top-block div.service-short-desc div.center button.btn-warning {
+        /* width: 200px; */
+        font-size: 10pt;
+    }
+    
+    .portofolio {
+        margin-top: 50px;
+    }
+
+    .portofolio h2 {
+        font-size: 1.6rem;
+    }
+    
+    .portofolio .portofolio-short-desc {
+        margin-top: 30px;
+    }
+    
+    .portofolio .portofolio-short-desc .thumbnail img {
+        width: 250px;
+        height: 250px;    
+    }
+    
+    .contact-us .phone-number {
+        margin-top: 0px;
+    }
+
+    .contact-us iframe{
+        margin: -20px 25px;
+        width: 300px;
+        height: 300px;
+    }
+
+}
+  
+
+@media (min-width: 376px ) and (max-width: 425px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.3rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 1.0rem;
+    }
+      
+    .bd-greetings h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #about {
+        position: relative;
+        background-color: #FFC107;
+        height: 250px;
+        margin-top: 50px;
+    }
+    
+    #about .col-sm-5 {
+        position: absolute;
+        margin-top: 50px;
+        left: 0;
+    }
+    
+    #about .col-sm-7 {
+        position: absolute;
+        margin-top: 120px;
+        left: 0;    
+    }
+    
+    #about .whatsapp {
+        margin: -30px -80px;
+        z-index: 1000;
+    }
+    
+    #about .whatsapp img {
+        width: 50px;
+        height: 50px;
+        /* margin: 15px 0px; */
+        /* top: 100%; */
+    }
+    
+    #about h2 {
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    #about h4 {
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    #about p {
+        font-size: 1.0rem;
+    }
+    
+    /* Service top */
+    .service-top-block {
+        margin: 50px 0px;
+    }
+
+    .service-top-block h2 {
+        font-size: 1.6rem;
+    }
+       
+    .service-top-block .service-short-desc {
+        margin-top: 30px;
+    }
+    
+    .service-top-block .service-short-desc .btn-warning {
+        font-size: 10pt;
+    }
+    
+    .service-top-block .service-short-desc div.center {
+        margin-top: 30px;
+    }
+    
+    .service-top-block .service-short-desc p {
+        text-align: justify;
+    }
+
+    .service-top-block .service-short-desc .thumbnail {
+        border-style: none;
+    }
+    
+    .service-top-block .service-short-desc .thumbnail img {
+        width: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    div.service-top-block div.service-short-desc div.center button.btn-warning {
+        /* width: 200px; */
+        font-size: 10pt;
+    }
+    
+    .portofolio {
+        margin-top: 50px;
+    }
+
+    .portofolio h2 {
+        font-size: 1.6rem;
+    }
+    
+    .portofolio .portofolio-short-desc {
+        margin-top: 30px;
+    }
+    
+    .portofolio .portofolio-short-desc .thumbnail img {
+        width: 250px;
+        height: 250px;    
+    }
+    
+    .contact-us .phone-number {
+        margin-top: 0px;
+    }
+
+    .contact-us iframe{
+        margin: -20px 50px;
+        width: 300px;
+        height: 300px;
+    }
+    
+}
+
+
+/* Media Query */
+/* max-widht 426 max 768 */
+@media (min-width: 426px ) and (max-width: 768px) {
+/* @media only screen and (max-width: 600px) { */
+   
+h2 {
+    font-size: 18pt;
+}
+h3 {
+    font-size: 16pt;
+}
+h4 {
+    font-size: 14pt;
+}
+p {
+    font-size: 12pt
+}
+  
+.bd-greetings {
+    margin-top: 50px;
+} 
+
+.bd-greetings h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#about {
+    position: relative;
+    background-color: #FFC107;
+    height: 250px;
+    /* margin-top: 80px; */
+    margin-top: 50px;
+}
+
+#about .col-sm-5 {
+    /* margin: -200px 0px; */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#about .col-sm-7 {
+    position: absolute;
+    margin-top: 100px;
+    left: 30%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#about .whatsapp {
+    margin: -30px -80px;
+    z-index: 1000;
+}
+
+#about .whatsapp img {
+    width: 70px;
+    height: 70px;
+    /* margin: 15px 0px; */
+    /* top: 100%; */
+}
+
+#about h2 {
+    font-size: 16pt;
+    color: #fff;
+    margin-top: -20px;
+}
+#about h4 {
+    font-size: 14pt;
+    color: #fff;
+}
+#about p {
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+/* Service top */
+.service-top-block {
+    margin: 50px 0px;
+}
+
+
+.service-top-block .service-short-desc {
+    margin-top: 30px;
+}
+
+.service-top-block .service-short-desc .btn-warning {
+    font-size: 10pt;
+}
+
+.service-top-block .service-short-desc div.center {
+    margin-top: 30px;
+}
+
+.service-top-block .service-short-desc p {
+    text-align: justify;
+}
+
+.service-top-block .service-short-desc .thumbnail img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+div.service-top-block div.service-short-desc div.center button.btn-warning {
+    /* width: 200px; */
+    font-size: 10pt;
+}
+
+.portofolio {
+    margin-top: 50px;
+}
+
+.portofolio .portofolio-short-desc {
+    margin-top: 30px;
+}
+
+.portofolio .portofolio-short-desc .thumbnail img {
+    height: 200px;    
+}
+
+.contact-us iframe{
+    width: 300px;
+    height: 300px;
+}
+
+
+}
+
+
+@media (min-width: 769px ) and (max-width: 1024px) {
+      
+    .bd-greetings {
+        margin-top: 50px;
+    } 
+    
+    .bd-greetings h2 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    #about {
+        position: relative;
+        background-color: #FFC107;
+        height: 250px;
+        /* margin-top: 80px; */
+        margin-top: 50px;
+    }
+    
+    #about .col-sm-5 {
+        /* margin: -200px 0px; */
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    #about .col-sm-7 {
+        position: absolute;
+        margin-top: 100px;
+        left: 30%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    #about .whatsapp {
+        margin: -30px -80px;
+        z-index: 1000;
+    }
+    
+    #about .whatsapp img {
+        width: 70px;
+        height: 70px;
+        /* margin: 15px 0px; */
+        /* top: 100%; */
+    }
+    
+    #about h2 {
+        font-size: 16pt;
+        color: #fff;
+        margin-top: -20px;
+    }
+    #about h4 {
+        font-size: 14pt;
+        color: #fff;
+    }
+    #about p {
+        margin-top: 40px;
+        font-size: 1.2rem;
+    }
+    
+    /* Service top */
+    .service-top-block {
+        margin: 50px 0px;
+    }
+    
+    
+    .service-top-block .service-short-desc {
+        margin-top: 30px;
+    }
+
+    .service-top-block .service-short-desc .btn-warning {
+        font-size: 10pt;
+    }
+
+    .service-top-block .service-short-desc div.center {
+        margin-top: 30px;
+    }
+    
+    .service-top-block .service-short-desc p {
+        text-align: justify;
+    }
+    
+    .service-top-block .service-short-desc .thumbnail img {
+        width: 200px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    div.service-top-block div.service-short-desc div.center button.btn-warning {
+        /* width: 200px; */
+        font-size: 10pt;
+    }
+
+    .portofolio .portofolio-short-desc {
+        margin-top: 30px;
+    }
+
+    .portofolio .portofolio-short-desc .thumbnail img {
+        height: 250px;    
+    }
+    
+    .contact-us iframe{
+        width: 400px;
+    }
+}
+
+  @media (min-width: 1441px ) and (max-width: 2560px) {
+    #about .col-sm-5 {
+        /* margin: -200px 0px; */
+        margin: 0px;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    
+    #about .col-sm-7 {
+        /* margin: -200px 0px; */
+        /* margin: 0; */
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    } 
+
+  }

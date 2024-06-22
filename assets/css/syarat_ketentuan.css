@@ -1,0 +1,11 @@
+div.syarat_ketentuan h2 {
+    font-size: 2.5rem;
+    color: #FFCC00;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div.syarat_ketentuan p {
+    text-align: justify;
+    margin-top: 30px;
+}

@@ -1,0 +1,11 @@
+.navbar .navbar-expand-lg {
+    /* position: absolute; */
+    background-color: #FFFFF7;
+}  
+
+ul.nav.navbar-nav.navbar-right {
+    margin-left: auto;
+}
+
+select.custom-select option[value="indonesia"]   { background-image:url(../img/indonesia.png);   }
+select.custom-select option[value="english"]   { background-image:url(../img/english.png);   }

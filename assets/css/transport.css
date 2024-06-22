@@ -1,0 +1,55 @@
+div.transport img {
+    width: 600px;
+    position: relative;
+    margin-left: 20%;
+}
+
+div.transport h2 {
+    font-size: 2.5rem;
+    color: #FFCC00;
+}
+
+div.transport h4 {
+    color: #FFCC00;
+}
+
+div.transport div.book_transport h4 {
+    color: #FFCC00;
+}
+
+div.transport div.book_transport p {
+    color: #FFCC00;
+}
+
+div.transport div.book_transport img.img-responsive {
+    width: 150px;
+    margin-left: -5px;
+}
+
+div.transport div.bus-rent img.img-responsive {
+    width: 400px;
+}
+
+/* Media Query */
+/* max-width 600px */
+@media only screen and (max-width: 600px) {
+    div.transport img {
+        display: block;
+        margin: 0 auto;
+        width: 350px;
+    }
+
+    div.transport h2 {
+        font-size: 16pt;
+    }
+
+    div.transport h4 {
+        font-size: 14pt;
+    }
+
+    div.transport div.bus-rent {
+        display: block;
+        margin: 0 auto;
+        width: 350px;
+    }
+}
